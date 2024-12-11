@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #030303;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.post {
+    width: 500px;
+    background: white;
+    border: 1px solid #dbdbdb;
+    border-radius: 8px;
+    
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+
+.profile-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    object-fit: cover;
+}
+
+.username {
+    font-weight: bold;
+}
+
+.post-image {
+    width: 100%;
+    display: flex;
+}
+
+.post-footer {
+    padding: 15px;
+}
+
+.actions {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.actions button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.actions button:hover {
+    color: #555;
+}
+
+.description {
+    margin: 10px 0;
+}
+
+.username-description {
+    font-weight: bolder;
+}
+
