@@ -18,8 +18,22 @@ body {
 .post-header {
     display: flex;
     align-items: center;
+    justify-content: space-between; 
     padding: 15px;
 }
+
+.options-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    color: #000; 
+}
+
+.options-btn:hover {
+    color: #555; 
+}
+
 
 .profile-pic {
     width: 40px;
@@ -55,8 +69,13 @@ body {
     font-size: 20px;
 }
 
+
 .actions button:hover {
     color: #555;
+}
+
+.save-btn {
+    margin-left: auto; 
 }
 
 .description {
